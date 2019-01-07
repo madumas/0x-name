@@ -1,18 +1,21 @@
 {
-  "name": "@madumas/0x-name",
+  "name": "0x-name",
   "version": "1.0.0",
   "main": "name.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node name.test.js"
   },
-  "author": "",
+  "author": "Marc-André Dumas <madumas@madumas.ca>",
   "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madumas/0x-name.git"
+  },
+  "description": "0xname converts Ethereum addresses to an easy to remember, but non-unique, mnemonic. For more details visit https://0xna.me",
   "devDependencies": {
     "jest": "^23.6.0",
     "eslint": "^5.12.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-loader": "^2.1.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
