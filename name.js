@@ -1,5 +1,9 @@
-const web3 = require('web3')
 const codenamize = require('@codenamize/codenamize')
+
+function isAddress (address) {
+  // check if it has the basic requirements of an address
+  return /^(0x)?[0-9a-f]{40}$/i.test(address)
+}
 
 function zeroxName (address) {
   let name = ''
@@ -9,7 +13,7 @@ function zeroxName (address) {
     address = '0x' + address
   }
 
-  if (web3.utils.isAddress(address)) {
+  if (isAddress(address)) {
     name = codenamize(
       {
         seed: address,

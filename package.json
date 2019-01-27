@@ -1,6 +1,6 @@
 {
   "name": "0x-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "name.js",
   "scripts": {
     "test": "node name.test.js"
@@ -24,7 +24,6 @@
     "babel-eslint": "^10.0.1"
   },
   "dependencies": {
-    "@codenamize/codenamize": "^1.1.1",
-    "web3": "latest"
+    "@codenamize/codenamize": "^1.1.1"
   }
 }

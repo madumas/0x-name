@@ -1,7 +1,7 @@
 **0x-name** generates a short, easy to remember, but non-unique mnemonic for Ethereum addresses
 This mnemonic can be used to easily reference Ethereum addresses when doing chain analysis and transaction traffic.
 
-**Under no circunstances the mnemonic should be used to transact.** It is trivial to generate a valid Ethereum address from a 0x-name mnemonic.
+**Under no circumstances the mnemonic should be used to transact.** It is trivial to generate a valid Ethereum address from a 0x-name mnemonic.
 
 For more information, visit https://0xna.me
 
